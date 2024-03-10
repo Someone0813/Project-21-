@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>To-Do</title>
+  </head>
+  <body>
+    <header>
+      <p>TODO</p>
+      <img src="./images/Combined Shape.png" alt="Combined" id="NightSwitch" />
+      <img src="./images/Combined Shape (1).png" alt="Combined" id="LightSwitch" />
+
+    </header>
+    <form id="Form">
+      <input
+        type="text"
+        name="Todo"
+        id="Input"
+        placeholder="Create a new todo…"
+      />
+    </form>
+    <div class="Dolist">
+      <div class="Navigate">
+        <p id="NumberItems">All: <span class="NumberItems1"></span></p>
+        <p id="All">Done: <span class="All1"></span> </p>
+        <p id="Active">Doing: <span class="Active1"></span></p>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
